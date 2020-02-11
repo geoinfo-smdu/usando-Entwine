@@ -1,0 +1,8 @@
+[
+    {
+       "type": "readers.ept",
+       "filename": "http://na.entwine.io/nyc/ept.json",
+       "bounds": "([-8242669, -8242529], [4966549, 4966674])"
+    },
+    "statue-of-liberty.las"
+ ]
