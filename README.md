@@ -23,8 +23,22 @@ Primeiro vamos executar um simples pipeline para fazer o download de uma porçã
 
 `pdal pipeline .\pipelines\bouding_box.json`
 
-Também podemos salvar em formatos distintos como no caso o PLY para visualizar no [Blender 3D]()
+Podemos optar por fazer o download de uma densidade de pontos mais baixa, como por exmeplo com resolução de 1 ponto por metro quadrado
+
+`pdal pipeline .\pipelines\bouding_box_1_metro.json`
+
+Também podemos salvar em formatos distintos como no caso o PLY para visualizar no [Blender 3D](https://www.blender.org/)
 
 `pdal pipeline .\pipelines\bouding_box_to_ply.json`
 
-Podemos gerar um raster do terreno de uma determinada área
+E podemos ainda gerar um mesh para visualização
+
+`pdal pipeline .\pipelines\bouding_box_to_ply_mesh.json`
+
+E podemos gerar um mesh com o algorítimo Greedy
+
+`pdal pipeline .\pipelines\bouding_box_to_ply_mesh_greedy.json`
+
+E podemos gerar um mesh com o algorítimo Poisson
+
+`pdal pipeline .\pipelines\bouding_box_to_ply_poisson.json`

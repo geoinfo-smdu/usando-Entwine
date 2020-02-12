@@ -1,0 +1,15 @@
+[
+    {
+       "type": "readers.ept",
+       "filename": "ept://http://entwine3314.s3.amazonaws.com/entwine/ept.json",
+       "bounds": "([327741, 327841],[7394923, 7395023])"
+    },
+    {
+        "type": "filters.delaunay"
+    },
+    {
+        "type": "writers.ply",
+        "filename":"resultados/3314-111_mesh.ply",
+        "faces": true
+    }
+ ]
